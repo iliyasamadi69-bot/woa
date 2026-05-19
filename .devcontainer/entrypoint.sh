@@ -15,7 +15,7 @@ UUID="${VLESS_UUID:-$(generate_uuid)}"
 
 sed "s/\${UUID}/$UUID/g" "$CONFIG_TEMPLATE" > "$CONFIG"
 
-SNI="${CODESPACE_NAME:-localhost}-8080.app.github.dev"
+SNI="${CODESPACE_NAME:-localhost}-80.app.github.dev"
 
 echo ""
 echo "========================================"
